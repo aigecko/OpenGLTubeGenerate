@@ -10,9 +10,9 @@
       coordinate generation (spheremap and planar projections) + more.
 
 */
-
+#ifndef __linux__
 #include <windows.h>
-
+#endif // __linux__
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>

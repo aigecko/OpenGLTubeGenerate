@@ -9,8 +9,9 @@ cube from Chapter 4 */
 are the same as the vertex values */
 
 #define GLEW_STATIC
+#ifndef __linux__
 #include <Windows.h>    // for solving the Code::Blocks errors
-
+#endif
 #include <stdlib.h>
 #include <GL/glew.h>
 #include <GL/glut.h>
